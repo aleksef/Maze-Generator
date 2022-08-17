@@ -6,5 +6,4 @@ public class GridCell : MonoBehaviour
 {
     public int gridX;
     public int gridZ;
-    public bool isVisited = false;
 }
