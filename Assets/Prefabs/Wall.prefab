@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1352196873177183457}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,5 +110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8207c276152aa4bb7690bc2d0b8c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentMaterial: {fileID: 2100000, guid: a55c79986f976ca4a959cb7761750894, type: 2}
+  visitedMaterial: {fileID: 2100000, guid: 4643b6031df03bc4ebfabd048e2e23f0, type: 2}
   gridX: 0
   gridZ: 0
+  isVisited: 0
